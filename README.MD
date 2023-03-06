@@ -28,7 +28,7 @@ Repositorio do desafio - [maykbrito](https://github.com/maykbrito/boracodar/tree
 
 Inspirado na video aula do canal - [Rocketseat](https://www.youtube.com/watch?v=gAjetzgneJY)
 
-Figma do projeto - [Aqui](https://www.figma.com/community/file/1207675804423978995)
+Figma do projeto - [Aqui](https://www.figma.com/community/file/1210217615683203825)
 
 ## 🚀 Como Rodar
 

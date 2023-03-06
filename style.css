@@ -15,6 +15,10 @@
     display: grid;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .box {
     padding: 2.9rem 4.8rem;
     background: #363447;
@@ -52,8 +56,35 @@
 .top {
     font-weight: 600;
     font-size: 2.4rem;
+}
+
+.middle {
+    display: grid;
+    place-content: center;
+    position: relative;
+}
+
+.middle .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
 }
+
+.content h3 {
+    font-size: 3.4rem;
+}
+
+.bottom {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: auto;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
 .nps .middle {
     height: 19.7rem;
     place-content: center;
@@ -64,15 +95,6 @@
 
 .nps .bottom {
     gap: 1rem;
-}
-
-.bottom {
-    display: flex;
-    gap: 2rem;
-    justify-content: center;
-    margin-top: auto;
-    font-weight: 500;
-    font-size: 1.4rem;
 }
 
 .bottom .item {
@@ -100,11 +122,6 @@
     border-radius: 999px;
 }
 
-.middle {
-    display: grid;
-    place-content: center;
-    position: relative;
-}
 
 /* SVG */
 svg {
@@ -139,14 +156,47 @@ svg circle:nth-child(2) {
     }
 }
 
-.middle .content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+.weekly-sell {
+    gap: 3.2rem;
 }
 
-.content h3 {
-    font-size: 3.4rem;
+.weekly-sell .wrapper {
+    display: flex;
+    gap: 3.2rem;
+}
+
+.weekly-sell .left {
+    gap: 3.2rem;
+}
+
+.left .grid {
+    gap: 8rem;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.left .grid span {
+    font-size: 1.4rem;
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+}
+
+.left .grid span::before {
+    content: "";
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.left .most-sell span::before {
+    background: linear-gradient(180deg, #81FBB8 0%, #28C76F 100%);
+    margin-top: 0.4rem;
+}
+
+.left .less-sell span::before {
+    background: linear-gradient(180deg, #EA5455 0%, #FEB692 100%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    margin-top: 0.6rem;
 }

@@ -22,11 +22,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Projeto de front end (apenas template) de um dashboard.
 
 ![img.png](.github%2Fimg.png)
-![img.png](.github%2Fimg.png)
+![img_1.png](.github%2Fimg.png)
+![img_2.png](.github%2Fimg_2.png)
 
-Repositorio do desafio - [maykbrito](https://github.com/maykbrito/boracodar/tree/main/07)
+Repositorio do desafio - [maykbrito](https://github.com/maykbrito/boracodar/tree/main/08)
 
-Inspirado na video aula do canal - [Rocketseat](https://www.youtube.com/watch?v=gAjetzgneJY)
+Inspirado na video aula do canal - [Rocketseat](https://www.youtube.com/watch?v=7vNNAfIZ06g)
 
 Figma do projeto - [Aqui](https://www.figma.com/community/file/1210217615683203825)
 
